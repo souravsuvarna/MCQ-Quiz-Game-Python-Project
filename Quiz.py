@@ -121,4 +121,7 @@ elif score==20 :
 else:
     print("\nSorry "+player+" You not earned any badge , Good Try!! ")
     
+input("\nThank You for your particiaption.\n\nEnter any thing to quit:-")
+quit()
+    
 ##End
