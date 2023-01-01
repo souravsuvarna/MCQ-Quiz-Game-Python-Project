@@ -1,5 +1,4 @@
 # Python-Projects
-This repository will have all python3 projects done by me
 
 Project 1:- MCQ Based Quiz Console Game.
                
