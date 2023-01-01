@@ -1,3 +1,6 @@
+import webbrowser
+
+
 print("---Welcome---")
 
 score = 50
@@ -121,7 +124,14 @@ elif score==20 :
 else:
     print("\nSorry "+player+" You not earned any badge , Good Try!! ")
     
-input("\nThank You for your particiaption.\n\nEnter any thing to quit:-")
-quit()
+print("\nThank You for your particiaption.")
+
+meet = int(input("\nPress 1 to connect with the this project developer:-"))
+
+if meet==1:
+    webbrowser.open("https://docs.google.com/document/d/e/2PACX-1vTaKPPkqRCU8IPjBb6i_pBsm9JkQSMPMgj3vdk5QrogoCFNsew_eiZtOrBcpsfwm11DaJWaA-kvCqMp/pub")
+else:
+        
+    quit()
     
 ##End
